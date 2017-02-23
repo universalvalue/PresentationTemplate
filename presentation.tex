@@ -2,12 +2,27 @@
 \usepackage[sectionpage=none,subsectionpage=none,numbering=fraction,progressbar=frametitle,block=fill]{tex_supps/theme/beamerthememetropolis}
 %\usetheme[sectionpage=none,subsectionpage=none,numbering=fraction,progressbar=frametitle,block=fill]{metropolis}           % Use metropolis theme
 
+
 \definecolor{mpg-green}{RGB}{0,115,103}
+\definecolor{mpg-green-fg}{RGB}{124,166,166}
+\definecolor{mpg-green-mid}{RGB}{201,219,216}
+\definecolor{mpg-green-bg}{RGB}{230,242,242}
 \setbeamercolor{title}{fg=mpg-green}
 \setbeamercolor{title separator}{fg=mpg-green}
 \setbeamercolor{frametitle}{bg=mpg-green}
 
+%                Possibility 1
 \setbeamercolor{block title alerted}{bg=mpg-green}
+\setbeamercolor{block title}{fg=white, bg=mpg-green}
+\setbeamercolor{background canvas}{bg=mpg-green-bg}
+\setbeamercolor{block body}{bg = mpg-green-mid}
+\setbeamercolor{item}{fg = mpg-green}
+
+%                Possibility 2
+% \setbeamercolor{block title alerted}{bg=mpg-green-fg}
+% \setbeamercolor{block title}{fg=white, bg=mpg-green-fg}
+% \setbeamercolor{background canvas}{bg=mpg-green-bg}
+% \setbeamercolor{block body}{bg = mpg-green-mid}
 
 \usepackage{appendixnumberbeamer}
 
@@ -17,7 +32,7 @@
 %\institute{Max Planck Institute for Intelligent Systems\\University of Stuttgart}
 \institute{Max Planck Institute for Intelligent Systems\\
 	University of Stuttgart\\[\medskipamount]
-	\includegraphics[width=0.2\textwidth,keepaspectratio]{tex_supps/minerva.pdf}\includegraphics[width=0.2\textwidth,keepaspectratio]{{images/Universität_Stuttgart_Signet}.pdf}
+	\includegraphics[width=0.2\textwidth,keepaspectratio]{{images/Universität_Stuttgart_Signet}.pdf}\includegraphics[width=0.2\textwidth,keepaspectratio]{tex_supps/minerva.pdf}
       }
 
 \begin{document}
